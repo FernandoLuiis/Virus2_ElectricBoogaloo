@@ -13,6 +13,7 @@ scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 2 )
 
 [node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+visible = false
 
 [node name="Hitbox" type="Area2D" parent="." groups=["1_Damage", "Bullet"]]
 

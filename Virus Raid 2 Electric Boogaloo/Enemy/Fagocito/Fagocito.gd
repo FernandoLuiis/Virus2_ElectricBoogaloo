@@ -19,4 +19,4 @@ func _on_Hitbox_area_entered(area):
 	
 	##Remove o inimigo caso a vida chegue a zero
 	if health <= 0:
-		queue_free()
+		get_parent().queue_free()
