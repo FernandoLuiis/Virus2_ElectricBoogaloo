@@ -29,3 +29,4 @@ func enemy_spawn_pos_randomizer():
 func _on_Enemy_Spawn_timeout():
 	if enemy_count < max_enemies:
 		Global.instance_node(enemy, enemy_spawn_pos_randomizer(), Global.arena)
+		enemy_count += 1

@@ -13,3 +13,8 @@ func _process(delta):
 ##Remove a bala quando ela sai da tela. Evita que as balas perdidas persistam indefinidamente fora da tela.
 func _on_VisibilityNotifier2D_screen_exited():
 	queue_free()
+
+
+func _on_Hitbox_area_entered(area):
+	if area.is_in_group("Enemy"):
+		queue_free()

@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Enemy/Fagocito/Fagocito.gd" type="Script" id=1]
 [ext_resource path="res://Enemy/Fagocito/whitecell.png" type="Texture" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 10.6667
 
 [node name="Fagocito" type="Node2D"]
 script = ExtResource( 1 )
@@ -10,6 +13,11 @@ script = ExtResource( 1 )
 scale = Vector2( 0.06, 0.06 )
 texture = ExtResource( 2 )
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Hitbox" type="Area2D" parent="." groups=["Enemy"]]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="Área de Colisão" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2( -1, 5 )
+scale = Vector2( 3, 3 )
+shape = SubResource( 1 )
+
+[connection signal="area_entered" from="Hitbox" to="." method="_on_Hitbox_area_entered"]
