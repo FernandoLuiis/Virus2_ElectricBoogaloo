@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/whitecell.png-8d67aaac35d2fc1dbd7237a1c9365dd5.stex"
+path="res://.import/whitecell.png-033006f3b1e35f2923ef5c3a2fcdf555.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pictures/whitecell.png"
-dest_files=[ "res://.import/whitecell.png-8d67aaac35d2fc1dbd7237a1c9365dd5.stex" ]
+source_file="res://Enemy/Fagocito/whitecell.png"
+dest_files=[ "res://.import/whitecell.png-033006f3b1e35f2923ef5c3a2fcdf555.stex" ]
 
 [params]
 
