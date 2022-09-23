@@ -7,7 +7,7 @@ func _ready():
 	pass
 
 func _process(delta):
-	get_parent().follow_player(self, speed, delta)
+	get_parent().follow_player(speed, delta)
 
 
 func _on_Hitbox_area_entered(area):

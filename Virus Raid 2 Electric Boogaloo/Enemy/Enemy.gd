@@ -3,9 +3,17 @@ extends Node2D
 var fagocito = preload("res://Enemy/Fagocito/Fagocito.tscn")
 
 func _ready():
-	Global.instance_node(fagocito, Vector2(0,0), self)
+	
+	Global.instance_node(enemy_type_selector(), global_position, self)
 
-func follow_player(target, speed, delta):
+func follow_player(speed, delta):
 	if Global.player != null:
-		var mov = target.global_position.direction_to(Global.player.global_position)
-		target.global_position += mov * speed * delta
+		var mov = global_position.direction_to(Global.player.global_position)
+		global_position += mov * speed * delta
+
+func enemy_type_selector():
+	var type
+	
+	type = fagocito
+	
+	return type
