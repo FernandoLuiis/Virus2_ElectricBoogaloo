@@ -11,6 +11,7 @@ func follow_player(speed, delta):
 		var mov = global_position.direction_to(Global.player.global_position)
 		global_position += mov * speed * delta
 
+##Seleciona o tipo de inimigo que esta classe Enemy vai receber.
 func enemy_type_selector():
 	var type
 	
