@@ -1,0 +1,67 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1692748132
+default_env.tres::Environment::2966761944771059062::1692748035::0::1::::<><>::
+Global.gd::GDScript::-1::1692747376::0::1::::<>Node<>::
+icon.png::CompressedTexture2D::289156910530485518::1691193718::1691193910::1::::<><>::
+::res://Arena/::1692747821
+Arena.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Arena.tscn::PackedScene::3652066714733394929::1692747821::0::1::::<><>::res://Arena/Arena.gd<>uid://ipkay3mwri0w::::res://Pictures/background.png
+::res://Enemy/::1692747821
+Enemy.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Enemy.tscn::PackedScene::7807054424630889122::1692747821::0::1::::<><>::res://Enemy/Enemy.gd
+::res://Enemy/B-Cells/::1692746955
+::res://Enemy/Complement System/::1692746984
+::res://Enemy/Cytokines/::1692746970
+::res://Enemy/Cytotoxic T-Cells/::1692746865
+::res://Enemy/Dendritic Cells/::1692746963
+::res://Enemy/Exhausted T-Cells/::1692748132
+Exhausted T-Cell.tscn::PackedScene::8574138847275407023::1692748035::0::1::::<><>::
+exhausted-tcell.png::CompressedTexture2D::6148293707342810364::1692748127::1692748133::1::::<><>::
+::res://Enemy/Fagocito/::1692748132
+Fagocito.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Fagocito.tscn::PackedScene::8826511091102294791::1692747822::0::1::::<><>::res://Enemy/Fagocito/Fagocito.gd<>uid://bc40xvdukvf5t::::res://Enemy/Fagocito/whitecell.png
+whitecell.png::CompressedTexture2D::2588225432463543851::1691193717::1691193914::1::::<><>::
+::res://Enemy/Follicular Helper T-Cells/::1692746915
+::res://Enemy/Helper T-Cells/::1692746850
+::res://Enemy/Memory T-Cells/::1692746887
+::res://Enemy/Natural Killer/::1692746945
+::res://Enemy/Neutrophils/::1692746934
+::res://Enemy/Regulatory T-Cells/::1692746877
+::res://Enemy/Th17 Cells/::1692746902
+::res://Menu/::1691193717
+Menu.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Menu.tscn::PackedScene::-1::1691193862::0::1::::<><>::res://Menu/Menu.gd
+::res://Pictures/::1691193912
+Ajuda.png::CompressedTexture2D::4079165633400940734::1691193717::1691193911::1::::<><>::
+antiBody.png::CompressedTexture2D::5720681166384751625::1691193717::1691193911::1::::<><>::
+background.png::CompressedTexture2D::593084889733050224::1691193717::1691193911::1::::<><>::
+bloodcell.png::CompressedTexture2D::5590362277108191696::1691193717::1691193911::1::::<><>::
+Circle.png::CompressedTexture2D::1709319964349988556::1691193717::1691193911::1::::<><>::
+gameover.png::CompressedTexture2D::322536499648702598::1691193717::1691193911::1::::<><>::
+Help.png::CompressedTexture2D::1844402538643687789::1691193717::1691193911::1::::<><>::
+linfocitoB.png::CompressedTexture2D::395105425799024996::1691193717::1691193912::1::::<><>::
+linfocitoT.png::CompressedTexture2D::6823490369252243761::1691193717::1691193911::1::::<><>::
+Mouse_icon_vector.png::CompressedTexture2D::5334921571896069611::1691193717::1691193911::1::::<><>::
+projetil_roxo.png::CompressedTexture2D::7136857756519508548::1691193717::1691193911::1::::<><>::
+projetl_red.png::CompressedTexture2D::4488571755790369720::1691193717::1691193911::1::::<><>::
+RedCircle.png::CompressedTexture2D::7926922460958199884::1691193717::1691193911::1::::<><>::
+Sadtrollface.png::CompressedTexture2D::4985707058447493834::1691193717::1691193912::1::::<><>::
+Square.png::CompressedTexture2D::421197599033406414::1691193717::1691193911::1::::<><>::
+t-cell-citotóxico.png::CompressedTexture2D::4393928228296839153::1691193717::1691193912::1::::<><>::
+teste-start.png::CompressedTexture2D::2787781634797687767::1691193717::1691193911::1::::<><>::
+thewall.png::CompressedTexture2D::6051907679642639117::1691193717::1691193911::1::::<><>::
+titlewhite.png::CompressedTexture2D::8661371641708021816::1691193717::1691193911::1::::<><>::
+UIsampleBR.png::CompressedTexture2D::185848182588379980::1691193717::1691193911::1::::<><>::
+UIsampleEN.png::CompressedTexture2D::3932183804379815475::1691193717::1691193911::1::::<><>::
+VITORIA.png::CompressedTexture2D::445466342951855044::1691193717::1691193911::1::::<><>::
+WSAD.png::CompressedTexture2D::1915516313265313420::1691193717::1691193910::1::::<><>::
+::res://Player/::1691193718
+Player.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Player.tscn::PackedScene::-1::1691193862::0::1::::<><>::res://Player/Player.gd
+::res://Player/Virus_Player/::1691193912
+shot.png::CompressedTexture2D::992013716176793886::1691193718::1691193911::1::::<><>::
+varus2.png::CompressedTexture2D::2917623938848455198::1691193718::1691193912::1::::<><>::
+Virus_Bullet.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Virus_Bullet.tscn::PackedScene::-1::1691193862::0::1::::<><>::res://Player/Virus_Player/Virus_Bullet.gd<>res://Player/Virus_Player/shot.png
+Virus_Player.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+Virus_Player.tscn::PackedScene::-1::1691193862::0::1::::<><>::res://Player/Virus_Player/Virus_Player.gd<>res://Player/Virus_Player/varus2.png

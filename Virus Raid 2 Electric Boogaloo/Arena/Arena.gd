@@ -16,13 +16,13 @@ func enemy_spawn_pos_randomizer():
 	
 	##Define se o inimigo irá ser criado acima ou abaixo da tela.
 	var spawn_vert
-	if rand_range(-1,1) > 0:
+	if randf_range(-1,1) > 0:
 		spawn_vert = -30
 	else:
 		spawn_vert = Global.screen_vert + 30
 	
 	##Define a posição vertical da criação do inimigo
-	var spawn_hori = rand_range(30, Global.screen_hori - 30)
+	var spawn_hori = randf_range(30, Global.screen_hori - 30)
 	
 	return Vector2(spawn_hori, spawn_vert)
 

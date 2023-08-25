@@ -1,14 +1,14 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=3 format=3 uid="uid://bsbdagbdbupoj"]
 
-[ext_resource path="res://Arena/Arena.gd" type="Script" id=1]
-[ext_resource path="res://Pictures/background.png" type="Texture" id=2]
+[ext_resource type="Script" path="res://Arena/Arena.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ipkay3mwri0w" path="res://Pictures/background.png" id="2"]
 
 [node name="Arena" type="Node2D"]
-script = ExtResource( 1 )
+script = ExtResource("1")
 
-[node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 100000, 100000 )
-texture = ExtResource( 2 )
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(100000, 100000)
+texture = ExtResource("2")
 
 [node name="Enemy_Spawn" type="Timer" parent="."]
 wait_time = 5.0
