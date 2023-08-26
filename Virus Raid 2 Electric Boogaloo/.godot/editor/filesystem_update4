@@ -1,7 +1,6 @@
-res://default_env.tres
-res://Arena/Arena.tscn
-res://Global.gd
-res://Enemy/Enemy.tscn
-res://Enemy/Fagocito/Fagocito.tscn
-res://Enemy/Exhausted T-Cells/Exhausted T-Cell.tscn
 res://Enemy/Exhausted T-Cells/Exhausted T-Cell.gd
+res://default_env.tres
+res://Enemy/Exhausted T-Cells/Exhausted T-Cell.tscn
+res://Enemy/Enemy.gd
+res://Enemy/Fagocito/Fagocito.tscn
+res://Enemy/Fagocito/Fagocito.gd

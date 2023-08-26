@@ -1,25 +1,26 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1692748132
-default_env.tres::Environment::2966761944771059062::1692748035::0::1::::<><>::
+::res://::1693008390
+default_env.tres::Environment::2966761944771059062::1693008390::0::1::::<><>::
 Global.gd::GDScript::-1::1692747376::0::1::::<>Node<>::
 icon.png::CompressedTexture2D::289156910530485518::1691193718::1691193910::1::::<><>::
 ::res://Arena/::1692747821
 Arena.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
 Arena.tscn::PackedScene::3652066714733394929::1692747821::0::1::::<><>::res://Arena/Arena.gd<>uid://ipkay3mwri0w::::res://Pictures/background.png
-::res://Enemy/::1692747821
-Enemy.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
+::res://Enemy/::1693006091
+Enemy.gd::GDScript::-1::1693006091::0::1::::<>Node2D<>::
 Enemy.tscn::PackedScene::7807054424630889122::1692747821::0::1::::<><>::res://Enemy/Enemy.gd
 ::res://Enemy/B-Cells/::1692746955
 ::res://Enemy/Complement System/::1692746984
 ::res://Enemy/Cytokines/::1692746970
 ::res://Enemy/Cytotoxic T-Cells/::1692746865
 ::res://Enemy/Dendritic Cells/::1692746963
-::res://Enemy/Exhausted T-Cells/::1692748132
-Exhausted T-Cell.tscn::PackedScene::8574138847275407023::1692748035::0::1::::<><>::
-exhausted-tcell.png::CompressedTexture2D::6148293707342810364::1692748127::1692748133::1::::<><>::
-::res://Enemy/Fagocito/::1692748132
-Fagocito.gd::GDScript::-1::1691193862::0::1::::<>Node2D<>::
-Fagocito.tscn::PackedScene::8826511091102294791::1692747822::0::1::::<><>::res://Enemy/Fagocito/Fagocito.gd<>uid://bc40xvdukvf5t::::res://Enemy/Fagocito/whitecell.png
+::res://Enemy/Exhausted T-Cells/::1693009437
+Exhausted T-Cell.gd::GDScript::-1::1693005943::0::1::::<>Node2D<>::
+Exhausted T-Cell.tscn::PackedScene::8574138847275407023::1693008390::0::1::::<><>::res://Enemy/Exhausted T-Cells/Exhausted T-Cell.gd<>uid://ctujq767s74qi::::res://Enemy/Exhausted T-Cells/exhausted-tcell.png
+exhausted-tcell.png::CompressedTexture2D::6148293707342810364::1693009437::1693009440::1::::<><>::
+::res://Enemy/Fagocito/::1693008390
+Fagocito.gd::GDScript::-1::1693005972::0::1::::<>Node2D<>::
+Fagocito.tscn::PackedScene::8826511091102294791::1693008390::0::1::::<><>::res://Enemy/Fagocito/Fagocito.gd<>uid://bc40xvdukvf5t::::res://Enemy/Fagocito/whitecell.png
 whitecell.png::CompressedTexture2D::2588225432463543851::1691193717::1691193914::1::::<><>::
 ::res://Enemy/Follicular Helper T-Cells/::1692746915
 ::res://Enemy/Helper T-Cells/::1692746850
