@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl0l2rpuqb4tw"]
+
+[ext_resource type="Script" path="res://Enemy/Dendritic Cell/Dendritic Cell.gd" id="1_6hm1b"]
+[ext_resource type="Texture2D" uid="uid://frr5q3s2ds84" path="res://Enemy/Dendritic Cell/dendritic-cell.png" id="2_uuxvc"]
+
+[node name="Dendritic Cell" type="Node2D"]
+script = ExtResource("1_6hm1b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("2_uuxvc")
+
+[node name="Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+
+[connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]

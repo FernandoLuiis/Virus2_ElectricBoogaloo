@@ -2,6 +2,7 @@ extends Node2D
 
 var fagocito = preload("res://Enemy/Fagocito/Fagocito.tscn")
 var exhausted_tcell = preload("res://Enemy/Exhausted T-Cells/Exhausted T-Cell.tscn")
+var dendritic_cell = preload("res://Enemy/Dendritic Cell/Dendritic Cell.tscn")
 
 var health = 1
 
@@ -24,7 +25,7 @@ func follow_player(speed, delta):
 func enemy_type_selector():
 	var type
 	
-	type = exhausted_tcell
+	type = dendritic_cell
 	
 	return type
 
