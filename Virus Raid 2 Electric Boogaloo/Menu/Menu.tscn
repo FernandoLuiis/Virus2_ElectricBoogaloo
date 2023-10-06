@@ -1,39 +1,150 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=18 format=3 uid="uid://bghv10jdb3nyn"]
 
-[ext_resource path="res://Menu/Menu.gd" type="Script" id=1]
+[ext_resource type="Script" path="res://Menu/Menu.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dvnvr4qefirgy" path="res://Menu/titlewhite.png" id="2_o0wtj"]
+[ext_resource type="FontFile" uid="uid://cwbblrtj5fq7k" path="res://Menu/Oswald-VariableFont_wght.ttf" id="3_u0owl"]
+
+[sub_resource type="FontVariation" id="FontVariation_xgv7h"]
+base_font = ExtResource("3_u0owl")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_21a73"]
+bg_color = Color(0.203922, 0.0313726, 0.027451, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gge87"]
+bg_color = Color(0.160784, 0.0196078, 0.0156863, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c1fle"]
+bg_color = Color(0.12549, 0.0117647, 0.0117647, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="FontVariation" id="FontVariation_lmi05"]
+base_font = ExtResource("3_u0owl")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xq52m"]
+bg_color = Color(0.203922, 0.0313726, 0.027451, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0bioh"]
+bg_color = Color(0.160784, 0.0196078, 0.0156863, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1di3p"]
+bg_color = Color(0.12549, 0.0117647, 0.0117647, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yjrqg"]
+bg_color = Color(0.203922, 0.0313726, 0.027451, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tq77t"]
+bg_color = Color(0.160784, 0.0196078, 0.0156863, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0frlp"]
+bg_color = Color(0.12549, 0.0117647, 0.0117647, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_frgbp"]
+bg_color = Color(0.203922, 0.0313726, 0.027451, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yders"]
+bg_color = Color(0.160784, 0.0196078, 0.0156863, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_amr38"]
+bg_color = Color(0.12549, 0.0117647, 0.0117647, 1)
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
 
 [node name="Menu" type="Node2D"]
-script = ExtResource( 1 )
-
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-offset_left = 2.0
-offset_top = 179.0
-offset_right = 153.0
-offset_bottom = 488.0
-alignment = 1
-
-[node name="Jogar" type="Button" parent="VBoxContainer"]
-offset_top = 108.0
-offset_right = 151.0
-offset_bottom = 128.0
-text = "Jogar"
-
-[node name="Opções" type="Button" parent="VBoxContainer"]
-offset_top = 132.0
-offset_right = 151.0
-offset_bottom = 152.0
-text = "Opções"
-
-[node name="Aprender" type="Button" parent="VBoxContainer"]
-offset_top = 156.0
-offset_right = 151.0
-offset_bottom = 176.0
-text = "Aprender"
-
-[node name="Sair" type="Button" parent="VBoxContainer"]
-offset_top = 180.0
-offset_right = 151.0
-offset_bottom = 200.0
-text = "Sair"
+script = ExtResource("1")
 
 [node name="Fundo" type="Sprite2D" parent="."]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 1915.0
+offset_bottom = 1074.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="LogoMarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Logo" type="Sprite2D" parent="MarginContainer/VBoxContainer/LogoMarginContainer"]
+position = Vector2(0, -300)
+texture = ExtResource("2_o0wtj")
+offset = Vector2(400, 200)
+
+[node name="OptionsMarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/OptionsMarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Jogar" type="Button" parent="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 0
+theme_override_fonts/font = SubResource("FontVariation_xgv7h")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_21a73")
+theme_override_styles/hover = SubResource("StyleBoxFlat_gge87")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_c1fle")
+text = "Jogar"
+
+[node name="Opções" type="Button" parent="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 0
+theme_override_fonts/font = SubResource("FontVariation_lmi05")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_xq52m")
+theme_override_styles/hover = SubResource("StyleBoxFlat_0bioh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_1di3p")
+text = "Opções"
+
+[node name="Aprender" type="Button" parent="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 0
+theme_override_fonts/font = ExtResource("3_u0owl")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_yjrqg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_tq77t")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0frlp")
+text = "Aprender"
+
+[node name="Sair" type="Button" parent="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 0
+theme_override_fonts/font = ExtResource("3_u0owl")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_frgbp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yders")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_amr38")
+text = "Sair"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer/Jogar" to="." method="_on_jogar_pressed"]

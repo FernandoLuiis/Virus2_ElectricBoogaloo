@@ -1,6 +1,6 @@
 res://default_env.tres
-res://Enemy/Dendritic Cell/Dendritic Cell.tscn
-res://Enemy/Dendritic Cell/Dendritic Cell.gd
-res://Enemy/Enemy.gd
+res://Menu/Menu.tscn
+res://Menu/Menu.gd
 res://Enemy/Exhausted T-Cells/Exhausted T-Cell.tscn
 res://Enemy/Fagocito/Fagocito.tscn
+res://Enemy/Dendritic Cell/Dendritic Cell.tscn
