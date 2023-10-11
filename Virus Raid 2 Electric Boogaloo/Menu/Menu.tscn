@@ -148,3 +148,6 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_amr38")
 text = "Sair"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer/Jogar" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer/Opções" to="." method="_on_opções_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer/Aprender" to="." method="_on_aprender_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/OptionsMarginContainer/VBoxContainer/Sair" to="." method="_on_sair_pressed"]
