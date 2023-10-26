@@ -1,6 +1,10 @@
+Label
+VBoxContainer
+ProgressBar
+TextureProgressBar
+HBoxContainer
 MarginContainer
 Sprite2D
-VBoxContainer
 CollisionShape2D
 Area2D
 Timer
