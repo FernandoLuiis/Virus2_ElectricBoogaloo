@@ -24,14 +24,7 @@ func follow_player(speed, delta):
 ##Seleciona o tipo de inimigo que esta classe Enemy vai receber.
 func enemy_type_selector():
 	var type
-	if randf_range(-1,1) > 0:
-		type = dendritic_cell
-		if randf_range(-1,1) > 0:
-			type = exhausted_tcell
-			if randf_range(-1,1) > 0:
-				type = fagocito
-	else:
-		type = fagocito
+	type = exhausted_tcell
 	
 	return type
 
