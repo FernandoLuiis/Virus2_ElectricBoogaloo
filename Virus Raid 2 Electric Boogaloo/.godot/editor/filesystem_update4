@@ -5,3 +5,5 @@ res://Enemy/Dendritic Cell/Dendritic Cell.tscn
 res://Menu/Menu.tscn
 res://Arena/Arena.tscn
 res://Enemy/Enemy.tscn
+res://Ajuda/Ajuda.tscn
+res://Ajuda/Ajuda.gd
