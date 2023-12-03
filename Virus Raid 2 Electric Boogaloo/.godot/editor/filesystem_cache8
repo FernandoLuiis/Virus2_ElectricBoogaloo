@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701472232
-default_env.tres::Environment::2966761944771059062::1701472219::0::1::::<><>::
+::res://::1701613113
+default_env.tres::Environment::2966761944771059062::1701474852::0::1::::<><>::
 Global.gd::GDScript::-1::1693440464::0::1::::<>Node<>::
 icon.png::CompressedTexture2D::289156910530485518::1693440464::1693440464::1::::<><>::
-::res://Aprender/::1701472232
-Ajuda.gd::GDScript::-1::1701472194::0::1::::<>Node<>::
-Ajuda.tscn::PackedScene::6219320685001796864::1701472219::0::1::::<><>::
+::res://Ajuda/::1701474852
+Ajuda.gd::GDScript::-1::1701474852::0::1::::<>Node<>::
+Ajuda.tscn::PackedScene::6219320685001796864::1701474852::0::1::::<><>::
 ::res://Arena/::1701471821
 Arena.gd::GDScript::-1::1693440464::0::1::::<>Node2D<>::
 Arena.tscn::PackedScene::3652066714733394929::1701471821::0::1::::<><>::res://Arena/Arena.gd<>uid://ipkay3mwri0w::::res://Pictures/background.png<>uid://dd6o6ampkucae::::res://Pictures/barHorizontal_green.png<>uid://cwbblrtj5fq7k::::res://Menu/Oswald-VariableFont_wght.ttf
