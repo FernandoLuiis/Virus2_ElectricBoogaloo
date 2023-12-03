@@ -1,3 +1,23 @@
-[gd_scene format=3 uid="uid://cuuxkkkhbdwt1"]
+[gd_scene load_steps=3 format=3 uid="uid://cuuxkkkhbdwt1"]
+
+[ext_resource type="Texture2D" uid="uid://ipkay3mwri0w" path="res://Pictures/background.png" id="1_56vwd"]
+[ext_resource type="Texture2D" uid="uid://cshubg1842bu0" path="res://Pictures/thewall.png" id="2_8gf5t"]
 
 [node name="Ajuda" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(364, 620)
+scale = Vector2(-111.642, 112.311)
+texture = ExtResource("1_56vwd")
+offset = Vector2(262.095, -21.998)
+
+[node name="Parede_esquera" type="Sprite2D" parent="Sprite2D"]
+top_level = true
+position = Vector2(61, 539)
+scale = Vector2(0.683246, 1.51113)
+texture = ExtResource("2_8gf5t")
+
+[node name="Parade_direita" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(-13.4895, -0.685608)
+scale = Vector2(0.00579373, 0.0133573)
+texture = ExtResource("2_8gf5t")

@@ -1,3 +1,4 @@
 res://default_env.tres
-res://Ajuda/Ajuda.tscn
+res://Arena/Arena.tscn
 res://Ajuda/Ajuda.gd
+res://Ajuda/Ajuda.tscn

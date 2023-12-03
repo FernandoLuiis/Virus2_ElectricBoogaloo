@@ -1,9 +1,9 @@
-Sprite2D
 Label
 VBoxContainer
-ProgressBar
 TextureProgressBar
 HBoxContainer
+Sprite2D
+ProgressBar
 MarginContainer
 CollisionShape2D
 Area2D

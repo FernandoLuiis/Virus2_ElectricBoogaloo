@@ -1,32 +1,32 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701613113
-default_env.tres::Environment::2966761944771059062::1701474852::0::1::::<><>::
+::res://::1701614199
+default_env.tres::Environment::2966761944771059062::1701614168::0::1::::<><>::
 Global.gd::GDScript::-1::1693440464::0::1::::<>Node<>::
 icon.png::CompressedTexture2D::289156910530485518::1693440464::1693440464::1::::<><>::
-::res://Ajuda/::1701474852
-Ajuda.gd::GDScript::-1::1701474852::0::1::::<>Node<>::
-Ajuda.tscn::PackedScene::6219320685001796864::1701474852::0::1::::<><>::
+::res://Ajuda/::1701614168
+Ajuda.gd::GDScript::-1::1701613174::0::1::::<>Node<>::
+Ajuda.tscn::PackedScene::6219320685001796864::1701614168::0::1::::<><>::
 ::res://Arena/::1701471821
 Arena.gd::GDScript::-1::1693440464::0::1::::<>Node2D<>::
-Arena.tscn::PackedScene::3652066714733394929::1701471821::0::1::::<><>::res://Arena/Arena.gd<>uid://ipkay3mwri0w::::res://Pictures/background.png<>uid://dd6o6ampkucae::::res://Pictures/barHorizontal_green.png<>uid://cwbblrtj5fq7k::::res://Menu/Oswald-VariableFont_wght.ttf
+Arena.tscn::PackedScene::3652066714733394929::1701471821::0::1::::<><>::res://Arena/Arena.gd<>uid://ipkay3mwri0w
 ::res://Enemy/::1701471822
 Enemy.gd::GDScript::-1::1701471507::0::1::::<>Node2D<>::
 Enemy.tscn::PackedScene::7807054424630889122::1701471822::0::1::::<><>::res://Enemy/Enemy.gd
 ::res://Enemy/Dendritic Cell/::1701471821
 Dendritic Cell.gd::GDScript::-1::1696547251::0::1::::<>Node2D<>::
-Dendritic Cell.tscn::PackedScene::3210824427917997016::1701471821::0::1::::<><>::res://Enemy/Dendritic Cell/Dendritic Cell.gd<>uid://frr5q3s2ds84::::res://Enemy/Dendritic Cell/dendritic-cell.png
+Dendritic Cell.tscn::PackedScene::3210824427917997016::1701471821::0::1::::<><>::res://Enemy/Dendritic Cell/Dendritic Cell.gd<>uid://frr5q3s2ds84
 dendritic-cell.png::CompressedTexture2D::387125287185539407::1696547251::1696547251::1::::<><>::
 ::res://Enemy/Exhausted T-Cells/::1701471821
 Exhausted T-Cell.gd::GDScript::-1::1693440464::0::1::::<>Node2D<>::
-Exhausted T-Cell.tscn::PackedScene::8574138847275407023::1701471821::0::1::::<><>::res://Enemy/Exhausted T-Cells/Exhausted T-Cell.gd<>uid://clp3xhoc2mcxa::::res://Pictures/enemy.png
+Exhausted T-Cell.tscn::PackedScene::8574138847275407023::1701471821::0::1::::<><>::res://Enemy/Exhausted T-Cells/Exhausted T-Cell.gd<>uid://clp3xhoc2mcxa
 exhausted-tcell.png::CompressedTexture2D::6148293707342810364::1693440464::1693440464::1::::<><>::
 ::res://Enemy/Fagocito/::1701471821
 Fagocito.gd::GDScript::-1::1693440464::0::1::::<>Node2D<>::
-Fagocito.tscn::PackedScene::8826511091102294791::1701471821::0::1::::<><>::res://Enemy/Fagocito/Fagocito.gd<>uid://bc40xvdukvf5t::::res://Enemy/Fagocito/whitecell.png
+Fagocito.tscn::PackedScene::8826511091102294791::1701471821::0::1::::<><>::res://Enemy/Fagocito/Fagocito.gd<>uid://bc40xvdukvf5t
 whitecell.png::CompressedTexture2D::2588225432463543851::1693440464::1693440464::1::::<><>::
 ::res://Menu/::1701471821
 Menu.gd::GDScript::-1::1697839783::0::1::::<>Node2D<>::
-Menu.tscn::PackedScene::2823327204415089153::1701471821::0::1::::<><>::res://Menu/Menu.gd<>uid://dvnvr4qefirgy::::res://Menu/titlewhite.png<>uid://cwbblrtj5fq7k::::res://Menu/Oswald-VariableFont_wght.ttf
+Menu.tscn::PackedScene::2823327204415089153::1701471821::0::1::::<><>::res://Menu/Menu.gd<>uid://dvnvr4qefirgy
 Oswald-VariableFont_wght.ttf::FontFile::6319141588600156018::1697839783::1701471504::1::::<><>::
 titlewhite.png::CompressedTexture2D::8661371641708021816::1697839783::1701471504::1::::<><>::
 ::res://Pictures/::1701471558
